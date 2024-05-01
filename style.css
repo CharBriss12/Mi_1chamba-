@@ -1,5 +1,5 @@
 body{ 
-  background-color: #ceedec;
+  background-color: #e6f1f1;
 & div {
 
 
@@ -8,4 +8,17 @@ body{
     flex-direction: column; 
     align-items: center;
 }
+}
+
+.Description{
+  color: rgb(75, 109, 173);
+  font-size:2rem;
+}
+#Presentacion-mi-nombre{
+  color: rgb(9, 38, 67);
+  font-size: 3rem;
+}
+.element-list-greeting{
+  color: #65487f;
+  list-style:inside;
 }
