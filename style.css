@@ -1,24 +1,49 @@
-body{ 
-  background-color: #e6f1f1;
-& div {
+.Presentación {
+    color: #111414;
+}
 
+body {
+    background:rgb(250, 250, 250) ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
+a {
+    color:#585f6e ;
+}& div {
+    width: 185;
+    height:265;
     display: flex;
     justify-content: center ; 
     flex-direction: column; 
     align-items: center;
 }
+  
+h3 {
+    color: rgb(177, 50, 43);
 }
 
-.Description{
-  color: rgb(36, 55, 91);
-  font-size:2rem;
+.link-meliodas:hover {
+    color:rgb(248, 3, 3);
+    
 }
-#Presentacion-mi-nombre{
-  color: rgb(9, 38, 67);
-  font-size: 3rem;
+.link-ban:hover {
+    color:rgb(155, 3, 23);
 }
-.element-list-greeting{
-  color: #65487f;
-  list-style:inside;
+.link-diana:hover {
+    color:rgb(241, 141, 40);
+}
+.link-king:hover {
+    color:rgb(0, 154, 249);
+}
+.link-gowther:hover{
+    color:rgb(238, 86, 137);
+}
+.link-merlin:hover{
+    color:rgb(102, 61, 235);
+}
+.link-escanor:hover{
+    color:rgb(85, 174, 8);
+}
+.Contacto{
+    color: #6495ed;
 }
